@@ -49,6 +49,35 @@
          color: #4a4a4a;
       }
 
+      .three_columns {
+         text-align: center;
+         font-size: 0;
+         padding-top: 40px;
+         padding-bottom: 30px;
+      }
+
+      .three_columns .column {
+         width: 100%;
+         max-width: 200px;
+         display: inline-block;
+         vertical-align: top;
+      }
+
+      .three_columns .content {
+         font-size: 15px;
+         line-height: 20px;
+      }
+
+      .padding {
+         padding: 15px;
+      }
+
+      a {
+         font-size: 16px;
+         font-weight: 700;
+         text-decoration: none;
+         color: #388cda;
+      }
 
       @media screen and (max-width: 600px) {}
 
@@ -62,19 +91,112 @@
       <div class="webkit">
 
          <table class="outer" align="center">
-           <tr>
-              <td>
-                 <table width="100%" style="border-spacing: 0;">
-                  <tr>
-                     <td style="background-color:#388cda;padding:10px;text-align:center;">
-                        <a href="#">
-                           <img src="img/w3newbie-white.png" width="180" alt="White Image">
-                        </a>
-                     </td>
-                  </tr>
-                 </table>
-              </td>
-           </tr>
+            <tr>
+               <td>
+                  <table width="100%" style="border-spacing: 0;">
+                     <tr>
+                        <td style="background-color:#388cda;padding:10px;text-align:center;">
+                           <a href="https://sharetrip.net/">
+                              <img src="img/w3newbie-white.png" width="180" alt="Logo" title="Logo">
+                           </a>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <a href="https://sharetrip.net/">
+                     <img src="img/1200x700.jpg" alt="Banner" width="600" style="max-width:100%;">
+                  </a>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <table width="100%" style="border-spacing:0;">
+                     <tr>
+                        <td class="three_columns">
+                           <table class="column">
+                              <tr>
+                                 <td class="padding">
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <a href="#">
+                                                <img src="img/380x280.jpg" width="150" style="max-width:150px;" alt="">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px;">
+                                             <p>Apple Watch</p>
+                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
+                                                consequuntur?</p>
+                                             <a href="#">Learn More...</a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <table class="column">
+                              <tr>
+                                 <td class="padding">
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <a href="#">
+                                                <img src="img/380x280-2.jpg" width="150" style="max-width:150px;" alt="">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px;">
+                                             <p>Ear Pods</p>
+                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
+                                                consequuntur?</p>
+                                             <a href="#">Learn More...</a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <table class="column">
+                              <tr>
+                                 <td class="padding">
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <a href="#">
+                                                <img src="img/380x280-3.jpg" width="150" style="max-width:150px;" alt="">
+                                             </a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px;">
+                                             <p>Watch Bands</p>
+                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
+                                                consequuntur?</p>
+                                             <a href="#">Learn More...</a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+
+            
+
          </table>
 
       </div>
