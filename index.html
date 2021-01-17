@@ -79,9 +79,24 @@
          color: #388cda;
       }
 
-      @media screen and (max-width: 600px) {}
+      @media screen and (max-width: 600px) {
+         img.third-img-last {
+            width: 200px !important;
+            max-width: 200px !important;
+         }
 
-      @media screen and (max-width: 400px) {}
+         .padding {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+         }
+      }
+
+      @media screen and (max-width: 400px) {
+         img.third-img {
+            width: 200px !important;
+            max-width: 200px !important;
+         }
+      }
    </style>
 </head>
 
@@ -125,7 +140,8 @@
                                        <tr>
                                           <td>
                                              <a href="#">
-                                                <img src="img/380x280.jpg" width="150" style="max-width:150px;" alt="">
+                                                <img class="third-img" src="img/380x280.jpg" width="150"
+                                                   style="max-width:150px;" alt="">
                                              </a>
                                           </td>
                                        </tr>
@@ -149,8 +165,8 @@
                                        <tr>
                                           <td>
                                              <a href="#">
-                                                <img src="img/380x280-2.jpg" width="150" style="max-width:150px;"
-                                                   alt="">
+                                                <img class="third-img" src="img/380x280-2.jpg" width="150"
+                                                   style="max-width:150px;" alt="">
                                              </a>
                                           </td>
                                        </tr>
@@ -174,8 +190,8 @@
                                        <tr>
                                           <td>
                                              <a href="#">
-                                                <img src="img/380x280-3.jpg" width="150" style="max-width:150px;"
-                                                   alt="">
+                                                <img class="third-img-last" src="img/380x280-3.jpg" width="150"
+                                                   style="max-width:150px;" alt="">
                                              </a>
                                           </td>
                                        </tr>
@@ -251,6 +267,10 @@
                      </tr>
                   </table>
                </td>
+            </tr>
+
+            <tr>
+               <td height="20" style="background-color: #388cda;"></td>
             </tr>
 
          </table>
